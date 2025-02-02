@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(0, 6, 11);
+}
+#content{
+text-decoration-color: aliceblue;
+ color: aliceblue;
+font-style: oblique;
+font-size: 30px;
+}

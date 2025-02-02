@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(3, 2, 2);
+    
+}
+#title{
+  color: aliceblue; 
+  padding-right: 500px; 
+  margin-left: 500px;
+  margin-top: 100px;
+  font-size: 80px;
+  font-style: normal;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+#navbar {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+#navbar {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #fcfcfc;
+    color: rgb(2, 2, 2);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+#navbar:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
+}
+
+#search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#search-box {
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    border: none;
+    background-color: #000;
+    color: white;
+    width: 200px;
+}
+
+#search-box::placeholder {
+    color: #ffffff90;
+}
+#homeimg{
+    margin-top: 30px;
+    margin-left:35px ;
+    border: 5px;
+    height: 300px;
+
+}
+#subtitle{
+    color: #fcfcfc;
+    margin-left: 700px;
+    margin-top: -30px;
+   text-align: initial;
+}
+.customline{
+    width: 1200px;
+    margin-top: 100px;
+}
+.verticalline{
+    width: 1px;
+    height: 100px;
+    margin-left: 450px;
+}
+#contact{
+    color: #fcfcfc;
+    margin-left:330px ;
+    margin-top:-100px ;
+}
+.number{
+    color: #fcfcfc;
+    margin-left:500px ;
+    margin-top: -42px;
+
+}
+.Gmail{
+    color: #fcfcfc;
+    margin-left:500px ;
+    margin-top: 20px;
+}
+div{
+    font-style: oblique;
+}
